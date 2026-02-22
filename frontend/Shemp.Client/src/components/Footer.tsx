@@ -7,7 +7,7 @@ const Footer: React.FC = () => (
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
         <div className="col-span-1 md:col-span-2">
           <div className="flex items-center space-x-2 mb-4">
-            <div className="w-8 h-8 bg-gradient-to-br from-purple-600 to-blue-500 rounded-lg"></div>
+            <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-blue-500 rounded-lg"></div>
             <span className="text-2xl font-bold">shemp.io</span>
           </div>
           <p className="text-gray-400 max-w-md">Create copyright-safe, fully customizable social media clones for your film productions. Professional tools for modern filmmakers.</p>
