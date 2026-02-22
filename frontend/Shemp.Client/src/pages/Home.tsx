@@ -13,10 +13,10 @@ const Home: React.FC = () => (
       <div className="max-w-7xl mx-auto relative">
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-linear-to-r from-blue-600 via-blue-600 to-blue-500 bg-clip-text text-transparent leading-tight">
-            Copyright-Safe Screen Content for Your Films
+            Fake Screens.<br />Real Production Value.
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-10 leading-relaxed">
-            Fully interactive, customizable web interfaces—social media, hacking terminals, databases, news sites, and more. No copyright issues, complete creative control.
+            A marketplace for fully interactive, customizable web interfaces.<br />Find the perfect on-screen prop. Your content, shoot-ready in minutes.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="px-8 py-4 bg-linear-to-r from-blue-600 to-blue-500 text-white rounded-lg font-semibold text-lg hover:shadow-2xl hover:scale-105 transition transform">
@@ -70,7 +70,7 @@ const Home: React.FC = () => (
     <section id="about" className="py-20 px-6 bg-linear-to-r from-blue-600 to-blue-500">
       <div className="max-w-4xl mx-auto text-center text-white">
         <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to Shoot Your Next Scene?</h2>
-        <p className="text-xl mb-8 opacity-90">Join filmmakers who trust Shemp for copyright-safe screen content.</p>
+        <p className="text-xl mb-8 opacity-90">Join filmmakers who trust Shemp for interactive, on-screen props.</p>
         <button className="px-10 py-4 bg-white text-blue-600 rounded-lg font-bold text-lg hover:shadow-2xl hover:scale-105 transition transform">
           Get Started for Free
         </button>
