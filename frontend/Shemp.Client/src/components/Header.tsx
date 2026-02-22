@@ -11,6 +11,7 @@ const Header: React.FC = () => (
       <div className="hidden md:flex items-center space-x-8">
         <a href="#features" className="text-gray-600 hover:text-gray-900 transition">Features</a>
         <a href="#about" className="text-gray-600 hover:text-gray-900 transition">About</a>
+        <a href="#services" className="text-gray-600 hover:text-gray-900 transition">Services</a>
         <button className="px-6 py-2 bg-linear-to-r from-blue-600 to-blue-500 text-white rounded-lg font-medium hover:shadow-lg hover:scale-105 transition">Get Started</button>
       </div>
     </nav>

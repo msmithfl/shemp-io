@@ -16,7 +16,7 @@ const Home: React.FC = () => (
             Fake Screens.<br />Real Production Value.
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-10 leading-relaxed">
-            Find the perfect on-screen prop. Your content, shoot-ready in minutes.
+            Find interactive on-screen props, load your content, start shooting in minutes.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="px-8 py-4 bg-linear-to-r from-blue-600 to-blue-500 text-white rounded-lg font-semibold text-lg hover:shadow-2xl hover:scale-105 transition transform">
