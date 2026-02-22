@@ -1,7 +1,10 @@
-
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import { TbCopyCheckFilled } from "react-icons/tb";
+import { TbHandClick } from "react-icons/tb";
+import { MdSafetyCheck } from "react-icons/md";
+import { RiWifiOffLine } from "react-icons/ri";
 
 const Home: React.FC = () => (
   <div className="min-h-screen flex flex-col">
@@ -40,27 +43,27 @@ const Home: React.FC = () => (
         
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="bg-linear-to-br from-blue-100 to-blue-200 p-8 rounded-2xl hover:shadow-xl transition">
-            <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-4 text-2xl">�</div>
-            <h3 className="text-xl font-bold mb-3 text-gray-900">Social Media Apps</h3>
-            <p className="text-gray-600">Instagram, Twitter, TikTok-style interfaces with custom posts, profiles, and interactions.</p>
+            <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-4 text-2xl"><TbCopyCheckFilled className='text-white'/></div>
+            <h3 className="text-xl font-bold mb-3 text-gray-900">Suite of Clone Apps</h3>
+            <p className="text-gray-600">Social media clones with customizable posts, profiles, and interactions to fit your story.</p>
           </div>
           
           <div className="bg-linear-to-br from-blue-100 to-blue-200 p-8 rounded-2xl hover:shadow-xl transition">
-            <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-4 text-2xl">💻</div>
-            <h3 className="text-xl font-bold mb-3 text-gray-900">Hacking Terminals</h3>
-            <p className="text-gray-600">Command-line interfaces, code editors, and system dashboards for tech thriller scenes.</p>
+            <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-4 text-2xl"><TbHandClick className='text-white'/></div>
+            <h3 className="text-xl font-bold mb-3 text-gray-900">Fully Interactive</h3>
+            <p className="text-gray-600">Actors can engage with live web apps, creating a realistic and immersive scene.</p>
           </div>
           
           <div className="bg-linear-to-br from-blue-100 to-blue-200 p-8 rounded-2xl hover:shadow-xl transition">
-            <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-4 text-2xl">🗄️</div>
-            <h3 className="text-xl font-bold mb-3 text-gray-900">Database Systems</h3>
-            <p className="text-gray-600">Government databases, corporate records, security systems, and classified file browsers.</p>
+            <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-4 text-2xl"><MdSafetyCheck className='text-white'/></div>
+            <h3 className="text-xl font-bold mb-3 text-gray-900">Lifetime Access</h3>
+            <p className="text-gray-600">One-time purchases for single templates or subscribe for complete library access.</p>
           </div>
           
           <div className="bg-linear-to-br from-blue-100 to-blue-200 p-8 rounded-2xl hover:shadow-xl transition">
-            <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-4 text-2xl">📰</div>
-            <h3 className="text-xl font-bold mb-3 text-gray-900">News and Web Apps</h3>
-            <p className="text-gray-600">News websites, streaming platforms, messaging apps and more.</p>
+            <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-4 text-2xl"><RiWifiOffLine className='text-white'/></div>
+            <h3 className="text-xl font-bold mb-3 text-gray-900">Offline Workflow</h3>
+            <p className="text-gray-600">Shooting on location without internet connection is seamless with our offline-ready templates.</p>
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ const Footer: React.FC = () => (
             <div className="w-8 h-8 bg-linear-to-br from-blue-600 to-blue-500 rounded-lg"></div>
             <span className="text-2xl font-bold">Shemp</span>
           </div>
-          <p className="text-gray-400 max-w-md">A marketplace for fully interactive, customizable web interfaces. Find the perfect on-screen prop. Your content, shoot-ready in minutes.</p>
+          <p className="text-gray-400 max-w-md">A marketplace for fully interactive, customizable web interfaces. Find the perfect on-screen prop, load custom content, start shooting in minutes.</p>
         </div>
         <div>
           <h3 className="font-semibold mb-3">Product</h3>
