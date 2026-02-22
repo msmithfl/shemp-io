@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{1AE8ACA6-933B-BF2A-3671-3E2EAC007D16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shemp.Api", "Shemp.Api", "{06074AB5-FCA8-72CE-3514-558CA38FA851}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "backend", "backend\Shemp.Api\backend.csproj", "{4E6B1212-9891-51B1-5B39-A4082BB251E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E6B1212-9891-51B1-5B39-A4082BB251E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E6B1212-9891-51B1-5B39-A4082BB251E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E6B1212-9891-51B1-5B39-A4082BB251E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E6B1212-9891-51B1-5B39-A4082BB251E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06074AB5-FCA8-72CE-3514-558CA38FA851} = {1AE8ACA6-933B-BF2A-3671-3E2EAC007D16}
+		{4E6B1212-9891-51B1-5B39-A4082BB251E7} = {06074AB5-FCA8-72CE-3514-558CA38FA851}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E97B91E0-04E8-4946-A540-654DB1D10052}
+	EndGlobalSection
+EndGlobal

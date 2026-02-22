@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Yy1Pc3I/w3o=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\msmit\\csharp-dev\\shemp.io\\backend\\Shemp.Api\\backend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\msmit\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.1\\microsoft.aspnetcore.openapi.10.0.1.nupkg.sha512",
+    "C:\\Users\\msmit\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
