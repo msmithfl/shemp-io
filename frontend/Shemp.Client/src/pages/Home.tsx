@@ -16,11 +16,11 @@ const Home: React.FC = () => (
             Fake Screens.<br />Real Production Value.
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-10 leading-relaxed">
-            A marketplace for fully interactive, customizable web interfaces.<br />Find the perfect on-screen prop. Your content, shoot-ready in minutes.
+            Find the perfect on-screen prop. Your content, shoot-ready in minutes.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="px-8 py-4 bg-linear-to-r from-blue-600 to-blue-500 text-white rounded-lg font-semibold text-lg hover:shadow-2xl hover:scale-105 transition transform">
-              Start Creating Free
+              Shop Templates
             </button>
             <button className="px-8 py-4 bg-white text-gray-700 rounded-lg font-semibold text-lg border-2 border-gray-200 hover:border-purple-300 hover:shadow-lg transition">
               Watch Demo
@@ -35,7 +35,7 @@ const Home: React.FC = () => (
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">Any Interface, Any Story</h2>
-          <p className="text-xl text-gray-600">Build authentic-looking digital interfaces for any scene</p>
+          <p className="text-xl text-gray-600">Customize authentic-looking digital interfaces for any scene</p>
         </div>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -59,8 +59,8 @@ const Home: React.FC = () => (
           
           <div className="bg-linear-to-br from-blue-50 to-blue-100 p-8 rounded-2xl hover:shadow-xl transition">
             <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-4 text-2xl">📰</div>
-            <h3 className="text-xl font-bold mb-3 text-gray-900">News Feeds</h3>
-            <p className="text-gray-600">News websites, streaming platforms, messaging apps—fully interactive and customizable.</p>
+            <h3 className="text-xl font-bold mb-3 text-gray-900">News and Web Apps</h3>
+            <p className="text-gray-600">News websites, streaming platforms, messaging apps and more.</p>
           </div>
         </div>
       </div>
