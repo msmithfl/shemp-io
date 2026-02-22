@@ -10,7 +10,7 @@ const Footer: React.FC = () => (
             <div className="w-8 h-8 bg-linear-to-br from-blue-600 to-blue-500 rounded-lg"></div>
             <span className="text-2xl font-bold">Shemp</span>
           </div>
-          <p className="text-gray-400 max-w-md">Create copyright-safe, fully customizable social media clones for your film productions. Professional tools for modern filmmakers.</p>
+          <p className="text-gray-400 max-w-md">Create copyright-safe, fully customizable web interfaces for your film productions—from social media to hacking terminals. Professional tools for modern filmmakers.</p>
         </div>
         <div>
           <h3 className="font-semibold mb-3">Product</h3>
