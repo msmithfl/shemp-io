@@ -12,9 +12,6 @@ const Home: React.FC = () => (
       <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
       <div className="max-w-7xl mx-auto relative">
         <div className="text-center max-w-4xl mx-auto">
-          <div className="inline-block mb-4 px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-medium">
-            🎬 Built for Filmmakers
-          </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-linear-to-r from-blue-600 via-blue-600 to-blue-500 bg-clip-text text-transparent leading-tight">
             Copyright-Safe Social Media for Your Films
           </h1>
