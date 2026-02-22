@@ -6,7 +6,7 @@ const Header: React.FC = () => (
     <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
       <div className="flex items-center space-x-2">
         <div className="w-8 h-8 bg-linear-to-br from-blue-600 to-blue-500 rounded-lg"></div>
-        <span className="text-2xl font-bold bg-linear-to-r from-blue-600 to-blue-500 bg-clip-text text-transparent">shemp.io</span>
+        <span className="text-2xl font-bold bg-linear-to-r from-blue-600 to-blue-500 bg-clip-text text-transparent">Shemp</span>
       </div>
       <div className="hidden md:flex items-center space-x-8">
         <a href="#features" className="text-gray-600 hover:text-gray-900 transition">Features</a>

@@ -16,7 +16,7 @@ const Home: React.FC = () => (
             Copyright-Safe Social Media for Your Films
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-10 leading-relaxed">
-            Create fully customizable, interactive Instagram clones for your scenes. No copyright issues, complete creative control.
+            Create fully customizable, interactive social media clones for your scenes.<br/>No copyright issues, complete creative control.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="px-8 py-4 bg-linear-to-r from-blue-600 to-blue-500 text-white rounded-lg font-semibold text-lg hover:shadow-2xl hover:scale-105 transition transform">
@@ -70,7 +70,7 @@ const Home: React.FC = () => (
     <section id="about" className="py-20 px-6 bg-linear-to-r from-blue-600 to-blue-500">
       <div className="max-w-4xl mx-auto text-center text-white">
         <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to Shoot Your Next Scene?</h2>
-        <p className="text-xl mb-8 opacity-90">Join filmmakers who trust shemp.io for copyright-safe social media scenes.</p>
+        <p className="text-xl mb-8 opacity-90">Join filmmakers who trust Shemp for copyright-safe social media scenes.</p>
         <button className="px-10 py-4 bg-white text-blue-600 rounded-lg font-bold text-lg hover:shadow-2xl hover:scale-105 transition transform">
           Get Started for Free
         </button>
