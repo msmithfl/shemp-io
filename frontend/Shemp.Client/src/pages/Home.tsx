@@ -8,7 +8,7 @@ const Home: React.FC = () => (
     <Header />
     
     {/* Hero Section */}
-    <section className="relative bg-linear-to-br from-purple-50 via-blue-50 to-pink-50 pt-20 pb-32 px-6 overflow-hidden">
+    <section className="relative bg-linear-to-br from-purple-100 via-blue-100 to-pink-100 pt-20 pb-32 px-6 overflow-hidden">
       <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
       <div className="max-w-7xl mx-auto relative">
         <div className="text-center max-w-4xl mx-auto">
@@ -39,25 +39,25 @@ const Home: React.FC = () => (
         </div>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="bg-linear-to-br from-blue-50 to-blue-100 p-8 rounded-2xl hover:shadow-xl transition">
+          <div className="bg-linear-to-br from-blue-100 to-blue-200 p-8 rounded-2xl hover:shadow-xl transition">
             <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-4 text-2xl">�</div>
             <h3 className="text-xl font-bold mb-3 text-gray-900">Social Media Apps</h3>
             <p className="text-gray-600">Instagram, Twitter, TikTok-style interfaces with custom posts, profiles, and interactions.</p>
           </div>
           
-          <div className="bg-linear-to-br from-blue-50 to-blue-100 p-8 rounded-2xl hover:shadow-xl transition">
+          <div className="bg-linear-to-br from-blue-100 to-blue-200 p-8 rounded-2xl hover:shadow-xl transition">
             <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-4 text-2xl">💻</div>
             <h3 className="text-xl font-bold mb-3 text-gray-900">Hacking Terminals</h3>
             <p className="text-gray-600">Command-line interfaces, code editors, and system dashboards for tech thriller scenes.</p>
           </div>
           
-          <div className="bg-linear-to-br from-blue-50 to-blue-100 p-8 rounded-2xl hover:shadow-xl transition">
+          <div className="bg-linear-to-br from-blue-100 to-blue-200 p-8 rounded-2xl hover:shadow-xl transition">
             <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-4 text-2xl">🗄️</div>
             <h3 className="text-xl font-bold mb-3 text-gray-900">Database Systems</h3>
             <p className="text-gray-600">Government databases, corporate records, security systems, and classified file browsers.</p>
           </div>
           
-          <div className="bg-linear-to-br from-blue-50 to-blue-100 p-8 rounded-2xl hover:shadow-xl transition">
+          <div className="bg-linear-to-br from-blue-100 to-blue-200 p-8 rounded-2xl hover:shadow-xl transition">
             <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-4 text-2xl">📰</div>
             <h3 className="text-xl font-bold mb-3 text-gray-900">News and Web Apps</h3>
             <p className="text-gray-600">News websites, streaming platforms, messaging apps and more.</p>
